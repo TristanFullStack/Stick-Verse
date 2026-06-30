@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: blueviolet;
+    padding: 10px;
+
+
+}
+
+body {
+    background-color: rgb(131, 111, 111);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+    border-radius: 25px;
+
+    text-align: center;
+    transition: 0.2s;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+
+}
+
+.card h2 {
+    line-height: 3;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+}
+
+.card img{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 300px;
+
+}
+
+.card-stat {
+    background-color: rgb(255, 255, 255);
+    line-height: 24px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+.card-color-commun {
+    background-color: rgb(138, 130, 130);
+}   
+
+.card-color-rare {
+    background-color: rgb(167, 164, 211);
+}
+
+.card-color-epic {
+    background-color: rgb(255, 156, 156);
+}
+
+.card-color-legendaire {
+    background-color: rgb(248, 252, 5);
+}
